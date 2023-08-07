@@ -33,7 +33,7 @@ export class LoginComponent{
        let user = { email, password };
        try {
            let result = await this.authService.login(user);
-           this.router.navigate('/');    
+           this.router.navigate('/dashboard');    
        } catch (e) {
            if (e instanceof UserReadableError) {
                alert(e.message);
