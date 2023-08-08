@@ -1,5 +1,5 @@
 import { html } from '../../../node_modules/lit-html/lit-html.js';
-import { shoeTemplate } from '../../components/shared/shoeTemplate.js';
+import { shoeTemplate } from '../../components/shared/shoeTemplate.jsnpm';
 
 export const searchTemplate = (shoes, submitHandler) =>
   html` <section id="search">
